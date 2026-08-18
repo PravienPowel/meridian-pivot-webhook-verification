@@ -1,6 +1,6 @@
 # Learning & Blocker Journal — Webhook Verification (HMAC)
 
-**Assignment 1 — The Meridian Pivot (Northstar Retail Co.)**
+**The Meridian Pivot (Northstar Retail Co.)**
 **Tool/concept:** Webhook signature verification using HMAC-SHA256
 **Language:** JavaScript (Node.js)
 
