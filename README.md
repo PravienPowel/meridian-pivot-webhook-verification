@@ -1,6 +1,6 @@
 # Webhook HMAC Verification — Mini Prototype
 
-Assignment 1 (Solo Recon) for The Meridian Pivot sprint — Northstar Retail Co.
+The Meridian Pivot sprint — Northstar Retail Co.
 
 Simulates a client system sending a webhook, and a server that verifies the
 webhook really came from that client using HMAC-SHA256 signatures.
