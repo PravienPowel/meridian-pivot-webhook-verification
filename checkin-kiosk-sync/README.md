@@ -10,6 +10,8 @@ Current version: `../checkin-kiosk-async`
 ---
 
 Staff scan an attendee's QR code, the kiosk calls the badge printer and
+waits for it to finish before showing "Checked In". Scanning the same
+attendee twice doesn't print a second badge.
 
 ## Files
 - `printer-vendor.js` — stands in for the real badge printer vendor.
