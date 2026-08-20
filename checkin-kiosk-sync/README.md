@@ -1,8 +1,15 @@
-# Event Check-In Kiosk (Synchronous Version)
+# Event Check-In Kiosk (Synchronous Version) - DEPRECATED
+
+**This version is deprecated.** The badge printer vendor discontinued
+the synchronous print API this was built against. Kept here only as a
+reference for what the check-in flow looked like before the pivot -
+do not run this in place of the current version.
+
+Current version: `../checkin-kiosk-async`
+
+---
 
 Staff scan an attendee's QR code, the kiosk calls the badge printer and
-waits for it to finish before showing "Checked In". Scanning the same
-attendee twice doesn't print a second badge.
 
 ## Files
 - `printer-vendor.js` — stands in for the real badge printer vendor.
